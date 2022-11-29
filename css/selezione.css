@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(249, 149, 19);
+}
+/*-----------*/
+.titolo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    size: 100px;
+}
+/*-----------*/
+#button1 {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 400px;
+    height: 50px;
+    padding: 400px, 400px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+#button1:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#button1:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}
+/*--------*/
+#indietro {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 400px, 400px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+#indietro:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#indietro:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}

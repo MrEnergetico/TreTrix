@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(249, 149, 19);
+}
+.titolo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    size: 100px;
+    left: 50%;
+}

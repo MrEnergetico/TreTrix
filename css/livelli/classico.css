@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(249, 149, 19);
+}
+/*-----------*/
+#home {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 400px, 400px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+#home:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#home:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}
+/*---------------*/
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+/*---------------------------*/
+.tabella {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    top:100px;
+}
+
+.casella {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+/*---------------------------*/
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+/*---------------------------*/
+
+#reset {
+    background-color: #ff0202;
+}
